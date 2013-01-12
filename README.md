@@ -1,22 +1,26 @@
 # thin-rails
 
-`thin-rails` is a simple gem that sets the default server for rack (and rails) to thin.
+thin-rails is a simple gem that sets the default server for rack (and rails) to [thin](http://code.macournoyer.com/thin/).
 
-## Installing
+## Description
 
-### Recommended
+thin-rails overrides the `Rack::Handler.default` method to return `Rack::Handler::Thin` which will cause rack (and rails) to use thin
+by default.
 
-```
-gem install thin-rails
-```
+## Installation
 
-### Edge
+Add this line to your application's `Gemfile`:
 
-```
-git clone https://github.com/samuelkadolph/thin-rails
-cd thin-rails && rake install
-```
+    gem "thin-rails"
+
+And then execute:
+
+    $ bundle install
 
 ## Usage
 
-Add `gem "thin-rails"` to your Gemfile and then run `rails s` and it will use thin by default.
+Just add the gem to your `Gemfile` and then `rails server` will default to using unicorn.
+
+## Contributing
+
+Fork, branch & pull request.
