@@ -1,3 +1,7 @@
+[![Gem Version](https://badge.fury.io/rb/thin-rails.png)](http://badge.fury.io/rb/thin-rails)
+[![Dependency Status](https://gemnasium.com/samuelkadolph/thin-rails.png)](https://gemnasium.com/samuelkadolph/thin-rails)
+[![Code Climate](https://codeclimate.com/github/samuelkadolph/thin-rails.png)](https://codeclimate.com/github/samuelkadolph/thin-rails)
+
 # thin-rails
 
 thin-rails is a simple gem that sets the default server for rack (and rails) to [thin](http://code.macournoyer.com/thin/).
