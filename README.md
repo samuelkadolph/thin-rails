@@ -23,7 +23,7 @@ And then execute:
 
 ## Usage
 
-Just add the gem to your `Gemfile` and then `rails server` will default to using unicorn.
+Just add the gem to your `Gemfile` and then `rails server` will default to using thin.
 
 ## Contributing
 
